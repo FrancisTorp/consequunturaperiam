@@ -1,0 +1,36 @@
+{
+  "name": "consequunturaperiam",
+  "author": "JaylenOberbrunner",
+  "description": "Robust RSS Atom and RDF feed parsing using sax js",
+  "version": "1.0.0",
+  "keywords": [
+    "rss",
+    "feed",
+    "ipsam",
+    "rdf",
+    "enim",
+    "syndication"
+  ],
+  "homepage": "https://github.com/FrancisTorp/consequunturaperiam.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrancisTorp/consequunturaperiam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FrancisTorp/consequunturaperiam.git/issues"
+  },
+  "main": "./main.js",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "sax": "0.4.x",
+    "request": "2.9.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec"
+  }
+}
